@@ -13,10 +13,17 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("taptic! (watch)")
+            Button(action: taptest) {
+                Text("taptest")
+            }
         }
         .padding()
     }
+}
+
+func taptest() {
+    WKInterfaceDevice.current().play(.click)
 }
 
 #Preview {
