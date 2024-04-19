@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F6A08182BD29577000B3F8A /* tapkickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A08172BD29577000B3F8A /* tapkickApp.swift */; };
-		4F6A081A2BD29577000B3F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A08192BD29577000B3F8A /* ContentView.swift */; };
-		4F6A081C2BD29578000B3F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A081B2BD29578000B3F8A /* Assets.xcassets */; };
-		4F6A081F2BD29578000B3F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A081E2BD29578000B3F8A /* Preview Assets.xcassets */; };
-		4F6A08252BD29578000B3F8A /* tapkick Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4F6A08242BD29578000B3F8A /* tapkick Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4F6A082A2BD29578000B3F8A /* tapkickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A08292BD29578000B3F8A /* tapkickApp.swift */; };
-		4F6A082C2BD29578000B3F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A082B2BD29578000B3F8A /* ContentView.swift */; };
-		4F6A082E2BD29579000B3F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A082D2BD29579000B3F8A /* Assets.xcassets */; };
-		4F6A08312BD29579000B3F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A08302BD29579000B3F8A /* Preview Assets.xcassets */; };
+		4FC942722BD2DEDF009139F6 /* haptaptickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC942712BD2DEDF009139F6 /* haptaptickApp.swift */; };
+		4FC942742BD2DEDF009139F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC942732BD2DEDF009139F6 /* ContentView.swift */; };
+		4FC942762BD2DEE0009139F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC942752BD2DEE0009139F6 /* Assets.xcassets */; };
+		4FC942792BD2DEE0009139F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC942782BD2DEE0009139F6 /* Preview Assets.xcassets */; };
+		4FC9427F2BD2DEE0009139F6 /* haptaptick Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4FC9427E2BD2DEE0009139F6 /* haptaptick Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FC942842BD2DEE0009139F6 /* haptaptickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC942832BD2DEE0009139F6 /* haptaptickApp.swift */; };
+		4FC942862BD2DEE0009139F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC942852BD2DEE0009139F6 /* ContentView.swift */; };
+		4FC942882BD2DEE1009139F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC942872BD2DEE1009139F6 /* Assets.xcassets */; };
+		4FC9428B2BD2DEE1009139F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9428A2BD2DEE1009139F6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F6A08262BD29578000B3F8A /* PBXContainerItemProxy */ = {
+		4FC942802BD2DEE0009139F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F6A080C2BD29577000B3F8A /* Project object */;
+			containerPortal = 4FC942662BD2DEDF009139F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F6A08232BD29578000B3F8A;
-			remoteInfo = "tapkick Watch App";
+			remoteGlobalIDString = 4FC9427D2BD2DEE0009139F6;
+			remoteInfo = "haptaptick Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4F6A08372BD29579000B3F8A /* Embed Watch Content */ = {
+		4FC942912BD2DEE1009139F6 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4F6A08252BD29578000B3F8A /* tapkick Watch App.app in Embed Watch Content */,
+				4FC9427F2BD2DEE0009139F6 /* haptaptick Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,27 +43,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F6A08142BD29577000B3F8A /* tapkick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapkick.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F6A08172BD29577000B3F8A /* tapkickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapkickApp.swift; sourceTree = "<group>"; };
-		4F6A08192BD29577000B3F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4F6A081B2BD29578000B3F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F6A081E2BD29578000B3F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4F6A08242BD29578000B3F8A /* tapkick Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tapkick Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F6A08292BD29578000B3F8A /* tapkickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapkickApp.swift; sourceTree = "<group>"; };
-		4F6A082B2BD29578000B3F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4F6A082D2BD29579000B3F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F6A08302BD29579000B3F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FC9426E2BD2DEDF009139F6 /* haptaptick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haptaptick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC942712BD2DEDF009139F6 /* haptaptickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haptaptickApp.swift; sourceTree = "<group>"; };
+		4FC942732BD2DEDF009139F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FC942752BD2DEE0009139F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC942782BD2DEE0009139F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FC9427E2BD2DEE0009139F6 /* haptaptick Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "haptaptick Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC942832BD2DEE0009139F6 /* haptaptickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haptaptickApp.swift; sourceTree = "<group>"; };
+		4FC942852BD2DEE0009139F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FC942872BD2DEE1009139F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC9428A2BD2DEE1009139F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F6A08112BD29577000B3F8A /* Frameworks */ = {
+		4FC9426B2BD2DEDF009139F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F6A08212BD29578000B3F8A /* Frameworks */ = {
+		4FC9427B2BD2DEE0009139F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,58 +73,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F6A080B2BD29577000B3F8A = {
+		4FC942652BD2DEDF009139F6 = {
 			isa = PBXGroup;
 			children = (
-				4F6A08162BD29577000B3F8A /* tapkick */,
-				4F6A08282BD29578000B3F8A /* tapkick Watch App */,
-				4F6A08152BD29577000B3F8A /* Products */,
+				4FC942702BD2DEDF009139F6 /* haptaptick */,
+				4FC942822BD2DEE0009139F6 /* haptaptick Watch App */,
+				4FC9426F2BD2DEDF009139F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F6A08152BD29577000B3F8A /* Products */ = {
+		4FC9426F2BD2DEDF009139F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A08142BD29577000B3F8A /* tapkick.app */,
-				4F6A08242BD29578000B3F8A /* tapkick Watch App.app */,
+				4FC9426E2BD2DEDF009139F6 /* haptaptick.app */,
+				4FC9427E2BD2DEE0009139F6 /* haptaptick Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F6A08162BD29577000B3F8A /* tapkick */ = {
+		4FC942702BD2DEDF009139F6 /* haptaptick */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A08172BD29577000B3F8A /* tapkickApp.swift */,
-				4F6A08192BD29577000B3F8A /* ContentView.swift */,
-				4F6A081B2BD29578000B3F8A /* Assets.xcassets */,
-				4F6A081D2BD29578000B3F8A /* Preview Content */,
+				4FC942712BD2DEDF009139F6 /* haptaptickApp.swift */,
+				4FC942732BD2DEDF009139F6 /* ContentView.swift */,
+				4FC942752BD2DEE0009139F6 /* Assets.xcassets */,
+				4FC942772BD2DEE0009139F6 /* Preview Content */,
 			);
-			path = tapkick;
+			path = haptaptick;
 			sourceTree = "<group>";
 		};
-		4F6A081D2BD29578000B3F8A /* Preview Content */ = {
+		4FC942772BD2DEE0009139F6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A081E2BD29578000B3F8A /* Preview Assets.xcassets */,
+				4FC942782BD2DEE0009139F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4F6A08282BD29578000B3F8A /* tapkick Watch App */ = {
+		4FC942822BD2DEE0009139F6 /* haptaptick Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A08292BD29578000B3F8A /* tapkickApp.swift */,
-				4F6A082B2BD29578000B3F8A /* ContentView.swift */,
-				4F6A082D2BD29579000B3F8A /* Assets.xcassets */,
-				4F6A082F2BD29579000B3F8A /* Preview Content */,
+				4FC942832BD2DEE0009139F6 /* haptaptickApp.swift */,
+				4FC942852BD2DEE0009139F6 /* ContentView.swift */,
+				4FC942872BD2DEE1009139F6 /* Assets.xcassets */,
+				4FC942892BD2DEE1009139F6 /* Preview Content */,
 			);
-			path = "tapkick Watch App";
+			path = "haptaptick Watch App";
 			sourceTree = "<group>";
 		};
-		4F6A082F2BD29579000B3F8A /* Preview Content */ = {
+		4FC942892BD2DEE1009139F6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A08302BD29579000B3F8A /* Preview Assets.xcassets */,
+				4FC9428A2BD2DEE1009139F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -132,61 +132,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F6A08132BD29577000B3F8A /* tapkick */ = {
+		4FC9426D2BD2DEDF009139F6 /* haptaptick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F6A08382BD29579000B3F8A /* Build configuration list for PBXNativeTarget "tapkick" */;
+			buildConfigurationList = 4FC942922BD2DEE1009139F6 /* Build configuration list for PBXNativeTarget "haptaptick" */;
 			buildPhases = (
-				4F6A08102BD29577000B3F8A /* Sources */,
-				4F6A08112BD29577000B3F8A /* Frameworks */,
-				4F6A08122BD29577000B3F8A /* Resources */,
-				4F6A08372BD29579000B3F8A /* Embed Watch Content */,
+				4FC9426A2BD2DEDF009139F6 /* Sources */,
+				4FC9426B2BD2DEDF009139F6 /* Frameworks */,
+				4FC9426C2BD2DEDF009139F6 /* Resources */,
+				4FC942912BD2DEE1009139F6 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F6A08272BD29578000B3F8A /* PBXTargetDependency */,
+				4FC942812BD2DEE0009139F6 /* PBXTargetDependency */,
 			);
-			name = tapkick;
-			productName = tapkick;
-			productReference = 4F6A08142BD29577000B3F8A /* tapkick.app */;
+			name = haptaptick;
+			productName = haptaptick;
+			productReference = 4FC9426E2BD2DEDF009139F6 /* haptaptick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F6A08232BD29578000B3F8A /* tapkick Watch App */ = {
+		4FC9427D2BD2DEE0009139F6 /* haptaptick Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F6A08342BD29579000B3F8A /* Build configuration list for PBXNativeTarget "tapkick Watch App" */;
+			buildConfigurationList = 4FC9428E2BD2DEE1009139F6 /* Build configuration list for PBXNativeTarget "haptaptick Watch App" */;
 			buildPhases = (
-				4F6A08202BD29578000B3F8A /* Sources */,
-				4F6A08212BD29578000B3F8A /* Frameworks */,
-				4F6A08222BD29578000B3F8A /* Resources */,
+				4FC9427A2BD2DEE0009139F6 /* Sources */,
+				4FC9427B2BD2DEE0009139F6 /* Frameworks */,
+				4FC9427C2BD2DEE0009139F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "tapkick Watch App";
-			productName = "tapkick Watch App";
-			productReference = 4F6A08242BD29578000B3F8A /* tapkick Watch App.app */;
+			name = "haptaptick Watch App";
+			productName = "haptaptick Watch App";
+			productReference = 4FC9427E2BD2DEE0009139F6 /* haptaptick Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F6A080C2BD29577000B3F8A /* Project object */ = {
+		4FC942662BD2DEDF009139F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					4F6A08132BD29577000B3F8A = {
+					4FC9426D2BD2DEDF009139F6 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					4F6A08232BD29578000B3F8A = {
+					4FC9427D2BD2DEE0009139F6 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 4F6A080F2BD29577000B3F8A /* Build configuration list for PBXProject "tapkick" */;
+			buildConfigurationList = 4FC942692BD2DEDF009139F6 /* Build configuration list for PBXProject "haptaptick" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,69 +194,69 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F6A080B2BD29577000B3F8A;
-			productRefGroup = 4F6A08152BD29577000B3F8A /* Products */;
+			mainGroup = 4FC942652BD2DEDF009139F6;
+			productRefGroup = 4FC9426F2BD2DEDF009139F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F6A08132BD29577000B3F8A /* tapkick */,
-				4F6A08232BD29578000B3F8A /* tapkick Watch App */,
+				4FC9426D2BD2DEDF009139F6 /* haptaptick */,
+				4FC9427D2BD2DEE0009139F6 /* haptaptick Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F6A08122BD29577000B3F8A /* Resources */ = {
+		4FC9426C2BD2DEDF009139F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6A081F2BD29578000B3F8A /* Preview Assets.xcassets in Resources */,
-				4F6A081C2BD29578000B3F8A /* Assets.xcassets in Resources */,
+				4FC942792BD2DEE0009139F6 /* Preview Assets.xcassets in Resources */,
+				4FC942762BD2DEE0009139F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F6A08222BD29578000B3F8A /* Resources */ = {
+		4FC9427C2BD2DEE0009139F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6A08312BD29579000B3F8A /* Preview Assets.xcassets in Resources */,
-				4F6A082E2BD29579000B3F8A /* Assets.xcassets in Resources */,
+				4FC9428B2BD2DEE1009139F6 /* Preview Assets.xcassets in Resources */,
+				4FC942882BD2DEE1009139F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F6A08102BD29577000B3F8A /* Sources */ = {
+		4FC9426A2BD2DEDF009139F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6A081A2BD29577000B3F8A /* ContentView.swift in Sources */,
-				4F6A08182BD29577000B3F8A /* tapkickApp.swift in Sources */,
+				4FC942742BD2DEDF009139F6 /* ContentView.swift in Sources */,
+				4FC942722BD2DEDF009139F6 /* haptaptickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F6A08202BD29578000B3F8A /* Sources */ = {
+		4FC9427A2BD2DEE0009139F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6A082C2BD29578000B3F8A /* ContentView.swift in Sources */,
-				4F6A082A2BD29578000B3F8A /* tapkickApp.swift in Sources */,
+				4FC942862BD2DEE0009139F6 /* ContentView.swift in Sources */,
+				4FC942842BD2DEE0009139F6 /* haptaptickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F6A08272BD29578000B3F8A /* PBXTargetDependency */ = {
+		4FC942812BD2DEE0009139F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F6A08232BD29578000B3F8A /* tapkick Watch App */;
-			targetProxy = 4F6A08262BD29578000B3F8A /* PBXContainerItemProxy */;
+			target = 4FC9427D2BD2DEE0009139F6 /* haptaptick Watch App */;
+			targetProxy = 4FC942802BD2DEE0009139F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4F6A08322BD29579000B3F8A /* Debug */ = {
+		4FC9428C2BD2DEE1009139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +317,7 @@
 			};
 			name = Debug;
 		};
-		4F6A08332BD29579000B3F8A /* Release */ = {
+		4FC9428D2BD2DEE1009139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,26 +370,26 @@
 			};
 			name = Release;
 		};
-		4F6A08352BD29579000B3F8A /* Debug */ = {
+		4FC9428F2BD2DEE1009139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tapkick Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"haptaptick Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = tapkick;
+				INFOPLIST_KEY_CFBundleDisplayName = haptaptick;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jtay9562.tapkick;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jtay9562.haptaptick;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.tapkick.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.haptaptick.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -400,26 +400,26 @@
 			};
 			name = Debug;
 		};
-		4F6A08362BD29579000B3F8A /* Release */ = {
+		4FC942902BD2DEE1009139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tapkick Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"haptaptick Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = tapkick;
+				INFOPLIST_KEY_CFBundleDisplayName = haptaptick;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jtay9562.tapkick;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jtay9562.haptaptick;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.tapkick.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.haptaptick.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -431,7 +431,7 @@
 			};
 			name = Release;
 		};
-		4F6A08392BD29579000B3F8A /* Debug */ = {
+		4FC942932BD2DEE1009139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -439,11 +439,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tapkick/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"haptaptick/Preview Content\"";
 				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = tapkick;
+				INFOPLIST_KEY_CFBundleDisplayName = haptaptick;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.tapkick;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.haptaptick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -464,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		4F6A083A2BD29579000B3F8A /* Release */ = {
+		4FC942942BD2DEE1009139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -472,11 +472,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tapkick/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"haptaptick/Preview Content\"";
 				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = tapkick;
+				INFOPLIST_KEY_CFBundleDisplayName = haptaptick;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.tapkick;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtay9562.haptaptick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -501,34 +501,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F6A080F2BD29577000B3F8A /* Build configuration list for PBXProject "tapkick" */ = {
+		4FC942692BD2DEDF009139F6 /* Build configuration list for PBXProject "haptaptick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F6A08322BD29579000B3F8A /* Debug */,
-				4F6A08332BD29579000B3F8A /* Release */,
+				4FC9428C2BD2DEE1009139F6 /* Debug */,
+				4FC9428D2BD2DEE1009139F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F6A08342BD29579000B3F8A /* Build configuration list for PBXNativeTarget "tapkick Watch App" */ = {
+		4FC9428E2BD2DEE1009139F6 /* Build configuration list for PBXNativeTarget "haptaptick Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F6A08352BD29579000B3F8A /* Debug */,
-				4F6A08362BD29579000B3F8A /* Release */,
+				4FC9428F2BD2DEE1009139F6 /* Debug */,
+				4FC942902BD2DEE1009139F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F6A08382BD29579000B3F8A /* Build configuration list for PBXNativeTarget "tapkick" */ = {
+		4FC942922BD2DEE1009139F6 /* Build configuration list for PBXNativeTarget "haptaptick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F6A08392BD29579000B3F8A /* Debug */,
-				4F6A083A2BD29579000B3F8A /* Release */,
+				4FC942932BD2DEE1009139F6 /* Debug */,
+				4FC942942BD2DEE1009139F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F6A080C2BD29577000B3F8A /* Project object */;
+	rootObject = 4FC942662BD2DEDF009139F6 /* Project object */;
 }

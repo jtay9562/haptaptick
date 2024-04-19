@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  tapkick Watch App
+//  haptaptick
 //
 //  Created by Joshua Taylor on 4/19/24.
 //

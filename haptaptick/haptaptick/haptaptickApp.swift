@@ -1,6 +1,6 @@
 //
-//  tapkickApp.swift
-//  tapkick Watch App
+//  haptaptickApp.swift
+//  haptaptick
 //
 //  Created by Joshua Taylor on 4/19/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct tapkick_Watch_AppApp: App {
+struct haptaptickApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
