@@ -1,2 +1,2 @@
 # haptaptick
-Your taptic engine sidekick!
+Your haptic reminder sidekick!
