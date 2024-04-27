@@ -1,6 +1,9 @@
 # haptaptick
 Your haptic reminder sidekick!
 
+[Joshua's notes](https://docs.google.com/document/d/1G2k9fh_Aa8svFYtYZnnlQ2DWnaAHXILU0VNGhoWfgwA/edit?usp=sharing)
+
+
 
 ## Version 0.1a notes
 Wasn't able to create an Apple watch haptaptick app for the following reasons. Cannot create vibrations without making sounds or enabling silent mode. Cannot create custom vibration patterns. 
